@@ -1,0 +1,16 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import '../services/notification_service.dart';
+import 'package:injectable/injectable.dart';
+
+@module
+abstract class RegisterModule {
+  @lazySingleton
+  FirebaseAuth get firebaseAuth => FirebaseAuth.instance;
+
+  @lazySingleton
+  FirebaseFirestore get firebaseFirestore => FirebaseFirestore.instance;
+
+  @lazySingleton
+  NotificationService get notificationService => NotificationService();
+}

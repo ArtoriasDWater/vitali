@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "418114052019",
+    "project_id": "vitali-5ad89",
+    "storage_bucket": "vitali-5ad89.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418114052019:android:cad63dc447f5522bb675c6",
+        "android_client_info": {
+          "package_name": "com.example.proyecto_hospital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418114052019-f0a3mslsqhp1of6g79krj5rd43234jsu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1cd5C4umC78O5QKqESB-QE80y0mK-I0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418114052019-f0a3mslsqhp1of6g79krj5rd43234jsu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
